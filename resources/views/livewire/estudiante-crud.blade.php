@@ -23,4 +23,8 @@
             @endforeach
         </tbody>
     </table>
+    <div class="text-center mt-5">
+        <h1 class="text-center">{{ $contador }}</h1>
+        <button wire:click="incrementar" class="btn btn-warning">Sumar</button>
+    </div>
 </div>

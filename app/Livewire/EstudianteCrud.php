@@ -9,6 +9,12 @@ class EstudianteCrud extends Component
 {
     public $nombre, $email;
     public $estudiantes;
+    public $contador = 0;
+
+    public function incrementar()
+    {
+        $this->contador++;
+    }
 
     public function mount()
     {
